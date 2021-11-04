@@ -1,13 +1,13 @@
-FROM php:7.4-alpine
+FROM php:8.0-alpine
 
 LABEL "com.github.actions.name"="Psalm"
 LABEL "com.github.actions.description"="A static analysis tool for finding errors in PHP applications"
 LABEL "com.github.actions.icon"="check"
 LABEL "com.github.actions.color"="blue"
 
-LABEL "repository"="http://github.com/psalm/psalm-github-actions"
+LABEL "repository"="https://github.com/Mats/psalm-github-actions"
 LABEL "homepage"="http://github.com/actions"
-LABEL "maintainer"="Matt Brown <github@muglug.com>"
+LABEL "maintainer"="Mats Karstad <mats.karstad@gmail.com>"
 
 # Code borrowed from mickaelandrieu/psalm-ga which in turn borrowed from phpqa/psalm
 
